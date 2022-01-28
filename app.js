@@ -1,6 +1,7 @@
 const game = {
   title: 'Guess the Number!',
   biggestNum: 100,
+  prevGuess: [],
   smallestNum: 1,
   secretNum: null,
   play: function() {
